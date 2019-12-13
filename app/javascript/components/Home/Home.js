@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import Jumbotron from "./Jumbotron";
+import Table from "./Table/Table";
 
 class Home extends Component {
   constructor() {
     super();
     this.state = {
-      lesson_modules: [
+      course_modules: [
         {
           id: 1,
           title: "1. First Lesson",
@@ -42,6 +43,7 @@ class Home extends Component {
     return (
       <div>
         <Jumbotron />
+        <Table course_modules={this.state.course_modules} />
       </div>
     );
   }
