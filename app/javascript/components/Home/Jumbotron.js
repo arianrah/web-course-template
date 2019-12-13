@@ -16,10 +16,10 @@ const Jumbotron = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/watch?v=jNQXAC9IVRw"
-                frameborder="0"
+                src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>

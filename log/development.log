@@ -586,3 +586,117 @@ Entrypoint index = js/index-c6ad76646a6ae82d663a.js js/index-c6ad76646a6ae82d663
 Completed 200 OK in 4420ms (Views: 4419.4ms | ActiveRecord: 0.0ms | Allocations: 7373)
 
 
+Started GET "/" for ::1 at 2019-12-11 21:33:26 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ari/projects/web-course-template/public/packs
+[Webpacker] Hash: 827e2b73d51b014b0d26
+Version: webpack 4.41.2
+Time: 2402ms
+Built at: 12/11/2019 9:33:30 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-bab1ec31518eefd7280e.js   1.86 MiB        index  [emitted] [immutable]  index
+      js/index-bab1ec31518eefd7280e.js.map   2.07 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+Entrypoint index = js/index-bab1ec31518eefd7280e.js js/index-bab1ec31518eefd7280e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 768 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 24 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 4432.8ms | Allocations: 3469)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 4440ms (Views: 4439.3ms | ActiveRecord: 0.0ms | Allocations: 7379)
+
+
+Started GET "/" for ::1 at 2019-12-11 21:33:43 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ari/projects/web-course-template/public/packs
+[Webpacker] Hash: d563779117cb0fcf5abd
+Version: webpack 4.41.2
+Time: 1770ms
+Built at: 12/11/2019 9:33:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-5316b652287bba73a4f9.js   1.86 MiB        index  [emitted] [immutable]  index
+      js/index-5316b652287bba73a4f9.js.map   2.07 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+Entrypoint index = js/index-5316b652287bba73a4f9.js js/index-5316b652287bba73a4f9.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 768 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 24 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 2796.4ms | Allocations: 3467)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2804ms (Views: 2803.1ms | ActiveRecord: 0.0ms | Allocations: 7377)
+
+
+Started GET "/" for ::1 at 2019-12-11 21:34:05 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6116)
+
+
+Started GET "/" for ::1 at 2019-12-11 21:36:01 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5978)
+
+
+Started GET "/" for ::1 at 2019-12-12 20:23:15 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 2216)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 6119)
+
+
+Started GET "/" for ::1 at 2019-12-12 20:23:49 -0800
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ari/projects/web-course-template/public/packs
+[Webpacker] Hash: 24eee287fe8155a93b0d
+Version: webpack 4.41.2
+Time: 2087ms
+Built at: 12/12/2019 8:23:52 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-91382389bdeda87241d1.js   1.86 MiB        index  [emitted] [immutable]  index
+      js/index-91382389bdeda87241d1.js.map   2.07 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+Entrypoint index = js/index-91382389bdeda87241d1.js js/index-91382389bdeda87241d1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 768 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 24 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 3897.1ms | Allocations: 3469)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3904ms (Views: 3903.1ms | ActiveRecord: 0.0ms | Allocations: 7361)
+
+
